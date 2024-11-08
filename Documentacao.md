@@ -58,17 +58,6 @@ CREATE TABLE loans (
 ```
 ---
 
-Criação de usuario que esta configurado no sistema: 
-
-```
-create user 'manageslibrary'@'localhost' IDENTIFIED BY '123456';
-
-GRANT ALL ON Library.* TO 'manageslibrary'@'localhost';
-
-FLUSH PRIVILEGES;
-
-
-```
 
 
 ## Padrão MVC 
